@@ -11,6 +11,9 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
+.webstudio .studıo {
+  color: #2e2f42;
+}
 .navigation-list a,
 li {
   text-decoration: none;
@@ -20,13 +23,22 @@ li {
   letter-spacing: 0.02em;
   line-height: 1.5;
 }
+.navigation-list a:hover {
+  color: #404bbf;
+}
+.navigation-list a:active {
+  color: #404bbf;
+  text-decoration: underline;
+}
 .contacts a {
   text-decoration: none;
   font-size: 16px;
-  font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+.contacts a:hover {
+  color: #404bbf;
 }
 .main-hero {
   background-color: #2e2f42;
@@ -51,6 +63,9 @@ li {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   cursor: pointer;
 }
+.main-hero button:hover {
+  background-color: #404bbf;
+}
 button span {
   font-weight: 500;
   font-size: 15px;
@@ -71,7 +86,6 @@ button span {
 }
 .about p {
   font-size: 16px;
-  font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
@@ -97,7 +111,6 @@ button span {
   color: #2e2f42;
 }
 .our-team p {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -123,7 +136,6 @@ button span {
   color: #2e2f42;
 }
 .our-portfolio p {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -138,6 +150,12 @@ button span {
   width: 264px;
   height: 112px;
 }
+.footer-navigation .webtex-footer {
+  color: #4d5ae5;
+}
+.footer-navigation .studıotext-footer {
+  color: #f4f4fd;
+}
 .footer-navigation h2 {
   font-family: 'raleway', sans-serif;
   font-weight: 700;
@@ -149,7 +167,6 @@ button span {
   font-style: bold;
 }
 .footer-navigation p {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
