@@ -2,6 +2,9 @@ body {
   font-family: 'roboto', sans-serif;
   color: #2e2f42;
 }
+p {
+  font-family: 400;
+}
 .webstudio {
   font-style: bold;
   font-family: 'raleway', sans-serif;
